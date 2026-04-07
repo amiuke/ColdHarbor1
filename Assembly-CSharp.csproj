@@ -69,9 +69,13 @@
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Util\GenericSelectionUI\SelectorBase.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Thrid Person Controller\FootTrigger.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Util\GenericSelectionUI\SelectionUI.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Core\Hotspot System\HotspotDetector.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Equip And Attach\Scripts\Equip\EquipHotspot.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Util\State Machine\StateMachine.cs" />
+    <Compile Include="Assets\Scripts\DoorOpener.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Equip And Attach\Scripts\Equip\EquippableItem.cs" />
     <Compile Include="Assets\Scripts\TwoPointMover.cs" />
     <Compile Include="Assets\Fantacode Studios\Parkour &amp; Climbing System\Demo\Script\ControlPanel.cs" />
@@ -80,30 +84,41 @@
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Core\Attributes\ShowIfAttribute.cs" />
     <Compile Include="Assets\Fantacode Studios\Parkour &amp; Climbing System\Scripts\Integration helper\InvectorIntegrationHelper.cs" />
     <Compile Include="Assets\Fantacode Studios\Parkour &amp; Climbing System\Scripts\Parkour System\ParkourAction.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Util\GenericSelectionUI\ISelectableItem.cs" />
     <Compile Include="Assets\Scripts\WeldingManager.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
     <Compile Include="Assets\Scripts\PuzzleGate.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Core\Attributes\FoldoutGroupAttribute.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Util\GenericSelectionUI\ImageSlot.cs" />
     <Compile Include="Assets\Fantacode Studios\Parkour &amp; Climbing System\Scripts\Climbing System\ClimbController.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Input\LocomotionInputManager.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Util\FSSystemsSetupEditorWindow.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Util\State Machine\State.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Core\Attributes\StringDropdownAttribute.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\System\LocomotionICharacter.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Thrid Person Controller\CameraController.cs" />
     <Compile Include="Assets\Scripts\PlayerInventory.cs" />
+    <Compile Include="Assets\Scripts\KeyPointVisual.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Util\JoystickHelper.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Util\BlendTreeController.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Util\Slowmotion.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Util\TweenUtil.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Util\LookAtCamera.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Util\FSAudioUtil.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Core\TriggerEventInvoker.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Util\FSPackageData.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\UI\HPBar.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Thrid Person Controller\RagdollController.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Core\FSObject.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Test\DamageTester.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\System\IParkourAICharacter.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Util\AsyncUtil.cs" />
@@ -111,11 +126,14 @@
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Thrid Person Controller\EnvironmentScanner.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Core\FSSettings.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Core\EquipmentSlotsDatabase.cs" />
+    <Compile Include="Assets\Scripts\StorySubtitleUI.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Util\ListExtension.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\HeatReceiver.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Input\MobileCameraInputController.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Core\WayPointsNetwork.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Equip And Attach\Scripts\Equip\QuickSwitchButton.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Core\Hotspot System\MessageHotspot.cs" />
     <Compile Include="Assets\Fantacode Studios\Parkour &amp; Climbing System\Scripts\Parkour System\PredictiveAction.cs" />
     <Compile Include="Assets\Fantacode Studios\Parkour &amp; Climbing System\Scripts\Util\FSSystemsSetupParkour.cs" />
@@ -127,11 +145,17 @@
     <Compile Include="Assets\Scripts\ObjectStateCondition.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Attributes\HideInInspectorEnumAttribute.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Core\AnimGraphClipInfo.cs" />
+    <Compile Include="Assets\Scripts\StoryKeyPoint.cs" />
     <Compile Include="Assets\Fantacode Studios\Parkour &amp; Climbing System\Scripts\Parkour System\ParkourInputManager.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Core\ISavable.cs" />
     <Compile Include="Assets\Scripts\IceRespawner.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Core\Hotspot System\Hotspot.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Core\Item.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Core\FSObjectDatabase.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Thrid Person Controller\LocomotionController.cs" />
     <Compile Include="Assets\Fantacode Studios\Parkour &amp; Climbing System\Scripts\Parkour System\EnvironmentScannerParkour.cs" />
@@ -139,6 +163,7 @@
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Util\PhysicsUtil.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Util\AnimatorMergerUtility.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Equip And Attach\Scripts\Equip\EquippableItemObject.cs" />
+    <Compile Include="Assets\Scripts\MonsterHeatBridge.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Core\DamageCalculator.cs" />
     <Compile Include="Assets\Scripts\PickupCondition.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Core\ItemAction.cs" />
@@ -146,25 +171,41 @@
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Core\CurrencyDatabase.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Equip And Attach\Scripts\Armor\ArmorObject.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Util\TextController.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Equip And Attach\Scripts\Armor\ArmorItem.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
+    <Compile Include="Assets\Scripts\StoryEventController.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Util\EnemyDamagable.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Thrid Person Controller\FootIK.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
     <Compile Include="Assets\Starter Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Attributes\ReadOnlyAttribute.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Thrid Person Controller\FootStepEffects.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Equip And Attach\Scripts\Equip\RotateObject.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
     <Compile Include="Assets\Scripts\HeatMaterialConfig.cs" />
     <Compile Include="Assets\Fantacode Studios\Parkour &amp; Climbing System\Scripts\Climbing System\ClimbPoint.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\Fantacode Studios\Parkour &amp; Climbing System\Scripts\Integration helper\AnimatorRootmotionController.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Util\Crosshair.cs" />
+    <Compile Include="Assets\Scripts\KeyItem.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Util\LayersUtil.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Attributes\CustomIconAttribute.cs" />
+    <Compile Include="Assets\Scripts\MonsterAI.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Util\GenericSelectionUI\TextSlot.cs" />
     <Compile Include="Assets\Scripts\PlayerInteractor.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Equip And Attach\Scripts\Armor\ArmorHandler.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Core\Attributes\SetFromResourcesAttribute.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Equip And Attach\Scripts\Equip\EquippableItemHolder.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Util\UISwitcher.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
     <Compile Include="Assets\Fantacode Studios\Parkour &amp; Climbing System\Scripts\Climbing System\AnimatorHelper.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Util\BoxCastDebug.cs" />
     <Compile Include="Assets\Scripts\Pickupable.cs" />
@@ -178,12 +219,37 @@
     <Compile Include="Assets\Fantacode Studios\Parkour &amp; Climbing System\Scripts\Parkour System\ParkourController.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\System\SystemBase.cs" />
     <Compile Include="Assets\Fantacode Studios\Parkour &amp; Climbing System\Scripts\Climbing System\ClimbingPointUtils.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Attributes\RestrictEnumValuesAttribute.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\Starter Assets\Sample\Environment\Shaders\Built-in_RP\Triplanar.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
     <None Include="Assets\StarterAssets\license.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\Starter Assets\Sample\Environment\Shaders\Built-in_RP\ArmatureShader.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -1022,6 +1088,10 @@
       <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.AI.Navigation">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Burst.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1096,6 +1166,10 @@
     </Reference>
     <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
       <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
@@ -1206,6 +1280,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.AI.Navigation.Updater">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Autodesk.Fbx">
       <HintPath>Library\ScriptAssemblies\Autodesk.Fbx.dll</HintPath>
       <Private>False</Private>
@@ -1232,6 +1310,10 @@
     </Reference>
     <Reference Include="Unity.Searcher.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">

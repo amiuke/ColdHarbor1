@@ -83,7 +83,6 @@ public class TwoPointMover : MonoBehaviour
     // Public methods to control movement
     public void StartMoving()
     {
-        Debug.Log("Elevator received start signal!");
         isMoving = true;
     }
     

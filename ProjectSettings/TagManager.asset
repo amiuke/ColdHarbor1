@@ -9,6 +9,7 @@ TagManager:
   - SwingableLedge
   - Weldable
   - requiredTag
+  - blueKey
   layers:
   - Default
   - TransparentFX

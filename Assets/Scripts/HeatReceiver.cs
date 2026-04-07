@@ -79,17 +79,17 @@ public class HeatReceiver : MonoBehaviour
             case MaterialType.IRON:
                 heatTime = 2.0f; // 加热时间3秒
                 coolTime = 5.0f; // 冷却时间5秒
-                heatRadius = 5.0f; // 导热半径0.5
+                heatRadius = 10f; // 导热半径0.5
                 break;
             case MaterialType.FLAMMABLE:
                 igniteTime = 1.5f; // 点燃时间1.5秒
-                heatRadius = 4.0f; // 燃烧导热半径4
+                heatRadius = 20f; // 燃烧导热半径4
                 break;
             case MaterialType.HEATED:
                 // HEATED inherits parameters from IRON
                 heatTime = 2.0f;
                 coolTime = 5.0f;
-                heatRadius = 5.0f;
+                heatRadius = 10f;
                 break;
         }
     }
@@ -320,5 +320,76 @@ public class HeatReceiver : MonoBehaviour
     public void Weld()
     {
         OnStateChanged?.Invoke();
+    }
+    
+    /// <summary>
+    /// Directly set the material to HEATED state
+    /// Can be called from other scripts to instantly heat up the object
+    /// </summary>
+    public void SetHeated()
+    {
+        // Only IRON can become HEATED
+        if (materialType != MaterialType.IRON)
+        {
+            Debug.LogWarning($"[HeatReceiver] {gameObject.name}: Only IRON can become HEATED. Current type: {materialType}");
+            return;
+        }
+        
+        materialType = MaterialType.HEATED;
+        UpdateMaterial();
+        OnHeated?.Invoke();
+        OnStateChanged?.Invoke();
+        
+        Debug.Log($"[HeatReceiver] {gameObject.name} is now HEATED.");
+    }
+    
+    /// <summary>
+    /// Directly ignite the object (for FLAMMABLE materials)
+    /// </summary>
+    public void Ignite()
+    {
+        if (materialType != MaterialType.FLAMMABLE)
+        {
+            Debug.LogWarning($"[HeatReceiver] {gameObject.name}: Only FLAMMABLE can be ignited. Current type: {materialType}");
+            return;
+        }
+        
+        isIgnited = true;
+        IsOnFire = true;
+        UpdateMaterial();
+        OnIgnited?.Invoke();
+        OnStateChanged?.Invoke();
+        
+        Debug.Log($"[HeatReceiver] {gameObject.name} is now IGNITED.");
+    }
+    
+    /// <summary>
+    /// Directly melt the object (for ICE materials)
+    /// </summary>
+    public void Melt()
+    {
+        if (materialType != MaterialType.ICE)
+        {
+            Debug.LogWarning($"[HeatReceiver] {gameObject.name}: Only ICE can be melted. Current type: {materialType}");
+            return;
+        }
+        
+        // Disable renderer to simulate melting
+        if (renderer != null)
+        {
+            renderer.enabled = false;
+        }
+        
+        // Disable collider
+        Collider col = GetComponent<Collider>();
+        if (col != null)
+        {
+            col.enabled = false;
+        }
+        
+        OnMelted?.Invoke();
+        OnStateChanged?.Invoke();
+        
+        Debug.Log($"[HeatReceiver] {gameObject.name} has MELTED.");
     }
 }
