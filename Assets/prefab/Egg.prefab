@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 2996373301618414939}
   - component: {fileID: 1399108693834715283}
   - component: {fileID: 4158579560343085235}
+  - component: {fileID: 1651157354332540593}
+  - component: {fileID: 8880162055491960254}
   m_Layer: 0
   m_Name: Egg
   m_TagString: Untagged
@@ -2295,3 +2297,53 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!114 &1651157354332540593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8849242724049812278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7f80beb7acf8914b86e118a2dc5ba1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materialType: 0
+  materialConfig: {fileID: 0}
+  meltTime: 2
+  heatTime: 3
+  coolTime: 5
+  igniteTime: 1.5
+  heatRadius: 0
+  OnMelted:
+    m_PersistentCalls:
+      m_Calls: []
+  OnHeated:
+    m_PersistentCalls:
+      m_Calls: []
+  OnIgnited:
+    m_PersistentCalls:
+      m_Calls: []
+  OnStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &8880162055491960254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8849242724049812278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3894e004bd807a242bdf385741ea535f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  respawnDelay: 1000
+  OnRespawnBegin:
+    m_PersistentCalls:
+      m_Calls: []
+  OnRespawnComplete:
+    m_PersistentCalls:
+      m_Calls: []

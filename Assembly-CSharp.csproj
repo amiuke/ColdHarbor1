@@ -156,6 +156,7 @@
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Core\Item.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
+    <Compile Include="Assets\Scripts\TeleportPoint.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Core\FSObjectDatabase.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Thrid Person Controller\LocomotionController.cs" />
     <Compile Include="Assets\Fantacode Studios\Parkour &amp; Climbing System\Scripts\Parkour System\EnvironmentScannerParkour.cs" />
@@ -218,8 +219,8 @@
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Core\ItemCategory.cs" />
     <Compile Include="Assets\Fantacode Studios\Parkour &amp; Climbing System\Scripts\Parkour System\ParkourController.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\System\SystemBase.cs" />
-    <Compile Include="Assets\Fantacode Studios\Parkour &amp; Climbing System\Scripts\Climbing System\ClimbingPointUtils.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
+    <Compile Include="Assets\Fantacode Studios\Parkour &amp; Climbing System\Scripts\Climbing System\ClimbingPointUtils.cs" />
     <Compile Include="Assets\Fantacode Studios\Third Person Controller\Scripts\Attributes\RestrictEnumValuesAttribute.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -7,7 +7,7 @@ public class StoryKeyPoint : PuzzleCondition
 {
     [Header("Story Key Point Settings")]
     [SerializeField] private string playerTag = "Player";
-    [SerializeField] private bool destroyOnEnd = true; // If true, destroy the object; if false, just disable
+    [SerializeField] private bool destroyOnEnd = true;
 
     [Header("Events")]
     public UnityEvent OnActivated;
@@ -20,11 +20,9 @@ public class StoryKeyPoint : PuzzleCondition
 
     private void Awake()
     {
-        // Get all renderers and colliders
         renderers = GetComponentsInChildren<Renderer>();
         colliders = GetComponentsInChildren<Collider>();
 
-        // Ensure this collider is a trigger
         Collider triggerCollider = GetComponent<Collider>();
         if (triggerCollider != null)
         {
@@ -34,15 +32,12 @@ public class StoryKeyPoint : PuzzleCondition
 
     private void OnTriggerEnter(Collider other)
     {
-        // Check if already activated or ended
         if (isActivated || isEventEnded)
             return;
 
-        // Check if the entering object is the player
         if (!other.CompareTag(playerTag))
             return;
 
-        // Get player controller
         playerController = other.GetComponent<ThirdPersonController>();
         if (playerController == null)
         {
@@ -50,7 +45,6 @@ public class StoryKeyPoint : PuzzleCondition
             return;
         }
 
-        // Activate the key point
         ActivateKeyPoint();
     }
 
@@ -58,16 +52,14 @@ public class StoryKeyPoint : PuzzleCondition
     {
         isActivated = true;
 
-        // Disable visual components
         DisableVisuals();
 
-        // Lock player input
         LockPlayerInput();
 
-        // Trigger event
+        FreezeAllMonsters();
+
         OnActivated?.Invoke();
 
-        // Set condition as satisfied
         SetSatisfied(true);
 
         Debug.Log($"[StoryKeyPoint] {gameObject.name} activated!");
@@ -75,14 +67,12 @@ public class StoryKeyPoint : PuzzleCondition
 
     private void DisableVisuals()
     {
-        // Disable all renderers
         foreach (Renderer rend in renderers)
         {
             if (rend != null)
                 rend.enabled = false;
         }
 
-        // Disable all colliders
         foreach (Collider col in colliders)
         {
             if (col != null)
@@ -95,14 +85,12 @@ public class StoryKeyPoint : PuzzleCondition
         if (playerController == null)
             return;
 
-        // Disable the StarterAssetsInputs component to lock input
         StarterAssetsInputs input = playerController.GetComponent<StarterAssetsInputs>();
         if (input != null)
         {
             input.enabled = false;
         }
 
-        // Also disable PlayerInput if using Input System
 #if ENABLE_INPUT_SYSTEM
         UnityEngine.InputSystem.PlayerInput playerInput = playerController.GetComponent<UnityEngine.InputSystem.PlayerInput>();
         if (playerInput != null)
@@ -119,14 +107,12 @@ public class StoryKeyPoint : PuzzleCondition
         if (playerController == null)
             return;
 
-        // Re-enable the StarterAssetsInputs component
         StarterAssetsInputs input = playerController.GetComponent<StarterAssetsInputs>();
         if (input != null)
         {
             input.enabled = true;
         }
 
-        // Re-enable PlayerInput if using Input System
 #if ENABLE_INPUT_SYSTEM
         UnityEngine.InputSystem.PlayerInput playerInput = playerController.GetComponent<UnityEngine.InputSystem.PlayerInput>();
         if (playerInput != null)
@@ -136,6 +122,36 @@ public class StoryKeyPoint : PuzzleCondition
 #endif
 
         Debug.Log("[StoryKeyPoint] Player input unlocked.");
+    }
+
+    private void FreezeAllMonsters()
+    {
+        MonsterAI[] allMonsters = FindObjectsOfType<MonsterAI>();
+        
+        foreach (MonsterAI monster in allMonsters)
+        {
+            if (monster != null)
+            {
+                monster.TransitionToState(MonsterAI.MonsterState.STORY);
+            }
+        }
+
+        Debug.Log($"[StoryKeyPoint] Froze {allMonsters.Length} monsters for story event.");
+    }
+
+    private void UnfreezeAllMonsters()
+    {
+        MonsterAI[] allMonsters = FindObjectsOfType<MonsterAI>();
+        
+        foreach (MonsterAI monster in allMonsters)
+        {
+            if (monster != null && monster.CurrentState == MonsterAI.MonsterState.STORY)
+            {
+                monster.TransitionToState(MonsterAI.MonsterState.IDLE);
+            }
+        }
+
+        Debug.Log($"[StoryKeyPoint] Unfroze {allMonsters.Length} monsters after story event.");
     }
 
     /// <summary>
@@ -149,10 +165,10 @@ public class StoryKeyPoint : PuzzleCondition
 
         isEventEnded = true;
 
-        // Unlock player input
         UnlockPlayerInput();
 
-        // Destroy or disable the key point
+        UnfreezeAllMonsters();
+
         if (destroyOnEnd)
         {
             Destroy(gameObject);
@@ -165,7 +181,6 @@ public class StoryKeyPoint : PuzzleCondition
         Debug.Log($"[StoryKeyPoint] {gameObject.name} event ended.");
     }
 
-    // Optional: Visualize the trigger area in editor
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.cyan;

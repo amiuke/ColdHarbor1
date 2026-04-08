@@ -517,6 +517,7 @@
 "Assets/Scripts/StoryEventController.cs"
 "Assets/Scripts/StoryKeyPoint.cs"
 "Assets/Scripts/StorySubtitleUI.cs"
+"Assets/Scripts/TeleportPoint.cs"
 "Assets/Scripts/TriggerCondition.cs"
 "Assets/Scripts/TwoPointMover.cs"
 "Assets/Scripts/WeldingManager.cs"

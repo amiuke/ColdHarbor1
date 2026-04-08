@@ -11,7 +11,8 @@ public class MonsterAI : MonoBehaviour
         CHASE,
         ATTACK,
         KNOCKBACK,
-        DEAD
+        DEAD,
+        STORY
     }
 
     [Header("Stats")]
@@ -103,6 +104,10 @@ public class MonsterAI : MonoBehaviour
 
     private void Update()
     {
+        // STORY state: do nothing, monster is frozen for story events
+        if (currentState == MonsterState.STORY)
+            return;
+
         switch (currentState)
         {
             case MonsterState.IDLE:
@@ -301,6 +306,28 @@ public class MonsterAI : MonoBehaviour
                 // Destroy immediately
                 Destroy(gameObject);
                 break;
+
+            case MonsterState.STORY:
+                // Entering STORY state: freeze monster
+                if (navAgent != null && navAgent.enabled && navAgent.isOnNavMesh)
+                {
+                    navAgent.isStopped = true;
+                }
+                // Pause animation
+                if (animator != null)
+                {
+                    animator.speed = 0f;
+                }
+                break;
+        }
+
+        // Handle exiting STORY state (restore animation speed)
+        if (previousState == MonsterState.STORY && newState != MonsterState.STORY)
+        {
+            if (animator != null)
+            {
+                animator.speed = 1f;
+            }
         }
     }
 

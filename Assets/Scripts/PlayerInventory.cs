@@ -12,20 +12,28 @@ public class PlayerInventory : MonoBehaviour
     [SerializeField] private float equippedScale = 0.3f;
     [SerializeField] private float dropDistance = 1f;
     
+    [Header("Reward Settings")]
+    [SerializeField] private int initialRewardCount = 0;
+    
     [Header("Events")]
     public UnityEvent OnFuelChanged;
     public UnityEvent OnEquippedItemChanged;
+    public UnityEvent OnRewardCountChanged;
     
     private float currentFuel;
     private Pickupable equippedKeyItem;
+    private int rewardCount;
 
     public float CurrentFuel => currentFuel;
     public Pickupable EquippedKeyItem => equippedKeyItem;
+    public int RewardCount => rewardCount;
     
     private void Start()
     {
         currentFuel = initialFuel;
+        rewardCount = initialRewardCount;
         OnFuelChanged?.Invoke();
+        OnRewardCountChanged?.Invoke();
     }
     
     public void AddFuel(float amount)
@@ -58,5 +66,12 @@ public class PlayerInventory : MonoBehaviour
         equippedKeyItem = null;
         
         OnEquippedItemChanged?.Invoke();
+    }
+    
+    public void AddReward(int amount)
+    {
+        rewardCount += amount;
+        OnRewardCountChanged?.Invoke();
+        Debug.Log($"[PlayerInventory] Reward collected! Total: {rewardCount}");
     }
 }

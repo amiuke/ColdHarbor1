@@ -5,7 +5,8 @@ public class Pickupable : MonoBehaviour
     public enum PickupType
     {
         FUEL,
-        KEY_ITEM
+        KEY_ITEM,
+        REWARD
     }
     
     [Header("Pickup Settings")]
@@ -55,6 +56,11 @@ public class Pickupable : MonoBehaviour
 
             case PickupType.KEY_ITEM:
                 inventory.EquipKeyItem(this);
+                return true;
+
+            case PickupType.REWARD:
+                inventory.AddReward(1);
+                Destroy(gameObject);
                 return true;
         }
 

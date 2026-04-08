@@ -39,6 +39,7 @@ public class HeatReceiver : MonoBehaviour
     private Renderer renderer;
     private static HeatMaterialConfig defaultMaterialConfig;
     private MaterialType originalMaterialType; // Store original material type for reset
+    private bool parametersInitialized = false; // Flag to prevent re-initialization of parameters
     
     // Is the object currently on fire?
     public bool IsOnFire { get; private set; }
@@ -57,8 +58,12 @@ public class HeatReceiver : MonoBehaviour
         // Store original material type
         originalMaterialType = materialType;
         
-        // Set default parameters based on material type
-        SetDefaultParametersByMaterialType();
+        // Set default parameters based on material type (only on first initialization)
+        if (!parametersInitialized)
+        {
+            SetDefaultParametersByMaterialType();
+            parametersInitialized = true;
+        }
         
         if (renderer != null)
         {
@@ -68,28 +73,30 @@ public class HeatReceiver : MonoBehaviour
     }
     
     // Set default parameters based on material type
+    // Only applies defaults if fields haven't been configured in Inspector
     private void SetDefaultParametersByMaterialType()
     {
         switch (materialType)
         {
             case MaterialType.ICE:
-                meltTime = 2.0f; // 融化时间3秒
-                heatRadius = 0f; // 冰不导热
+                // 仅当字段未在 Inspector 中配置时才设置默认值
+                if (Mathf.Approximately(meltTime, 2.0f)) meltTime = 2.0f; // 融化时间2秒
+                if (Mathf.Approximately(heatRadius, 2.0f)) heatRadius = 0f; // 冰不导热
                 break;
             case MaterialType.IRON:
-                heatTime = 2.0f; // 加热时间3秒
-                coolTime = 5.0f; // 冷却时间5秒
-                heatRadius = 10f; // 导热半径0.5
+                if (Mathf.Approximately(heatTime, 3.0f)) heatTime = 2.0f; // 加热时间2秒
+                if (Mathf.Approximately(coolTime, 5.0f)) coolTime = 5.0f; // 冷却时间5秒
+                if (Mathf.Approximately(heatRadius, 2.0f)) heatRadius = 10f; // 导热半径10
                 break;
             case MaterialType.FLAMMABLE:
-                igniteTime = 1.5f; // 点燃时间1.5秒
-                heatRadius = 20f; // 燃烧导热半径4
+                if (Mathf.Approximately(igniteTime, 1.5f)) igniteTime = 1.5f; // 点燃时间1.5秒
+                if (Mathf.Approximately(heatRadius, 2.0f)) heatRadius = 20f; // 燃烧导热半径20
                 break;
             case MaterialType.HEATED:
-                // HEATED inherits parameters from IRON
-                heatTime = 2.0f;
-                coolTime = 5.0f;
-                heatRadius = 10f;
+                // HEATED 继承 IRON 的参数
+                if (Mathf.Approximately(heatTime, 3.0f)) heatTime = 2.0f;
+                if (Mathf.Approximately(coolTime, 5.0f)) coolTime = 5.0f;
+                if (Mathf.Approximately(heatRadius, 2.0f)) heatRadius = 10f;
                 break;
         }
     }
@@ -292,7 +299,7 @@ public class HeatReceiver : MonoBehaviour
         // Reset material type to original
         materialType = originalMaterialType;
         
-        // Reset parameters based on material type
+        // Reset parameters based on material type (preserves Inspector configurations)
         SetDefaultParametersByMaterialType();
         
         // Update material
