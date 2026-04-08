@@ -116,6 +116,8 @@
 -define:ENABLE_INPUT_SYSTEM
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
+-define:WEATHERADE_INCLUDED
+-define:USING_URP
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -define:UNITY_EDITOR_ONLY_COMPILATION
@@ -431,6 +433,28 @@
 "Assets/Fantacode Studios/Third Person Controller/Scripts/Editor/ValueModifierDrawer.cs"
 "Assets/Fantacode Studios/Third Person Controller/Scripts/Util/Editor/FSObjectListView.cs"
 "Assets/Fantacode Studios/Third Person Controller/Scripts/Util/Editor/PlayerControllerEditor.cs"
+"Assets/NOT_Lonely/TotalBrush/Scripts/Editor/NL_IsolationModeWindow.cs"
+"Assets/NOT_Lonely/TotalBrush/Scripts/Editor/NL_IsolationStage.cs"
+"Assets/NOT_Lonely/TotalBrush/Scripts/Editor/NL_PaintableObject_UI.cs"
+"Assets/NOT_Lonely/TotalBrush/Scripts/Editor/NL_TotalBrush.cs"
+"Assets/NOT_Lonely/TotalBrush/Scripts/Editor/NL_TotalBrushOverlay.cs"
+"Assets/NOT_Lonely/TotalBrush/Scripts/Editor/NL_TotalBrushOverlayBtn.cs"
+"Assets/NOT_Lonely/Weatherade SRS/Scripts/Editor/NL_VolumetricLight_editor.cs"
+"Assets/NOT_Lonely/Weatherade SRS/Scripts/Editor/RainCoverage_editor.cs"
+"Assets/NOT_Lonely/Weatherade SRS/Scripts/Editor/SnowCoverage_editor.cs"
+"Assets/NOT_Lonely/Weatherade SRS/Scripts/Editor/SRS_Particles_editor.cs"
+"Assets/NOT_Lonely/Weatherade SRS/Scripts/Editor/SRS_TerrainUtility_editor.cs"
+"Assets/NOT_Lonely/Weatherade SRS/Scripts/Editor/SRS_TraceMaskGenerator_editor.cs"
+"Assets/NOT_Lonely/Weatherade SRS/Scripts/Editor/VectorLabelsAttributeDrawer.cs"
+"Assets/NOT_Lonely/Weatherade SRS/Shaders/Editor/NL_MaterialEditorExtensions.cs"
+"Assets/NOT_Lonely/Weatherade SRS/Shaders/Editor/NL_SRS_RainCoverageTerrain_GUI.cs"
+"Assets/NOT_Lonely/Weatherade SRS/Shaders/Editor/NL_SRS_RainCoverage_GUI.cs"
+"Assets/NOT_Lonely/Weatherade SRS/Shaders/Editor/NL_SRS_SnowCoverageTerrain_GUI.cs"
+"Assets/NOT_Lonely/Weatherade SRS/Shaders/Editor/NL_SRS_SnowCoverage_GUI.cs"
+"Assets/NOT_Lonely/Weatherade SRS/Shaders/Editor/RainShadersGUI.cs"
+"Assets/NOT_Lonely/Weatherade SRS/Shaders/Editor/SnowShadersGUI.cs"
+"Assets/NOT_Lonely/Weatherade SRS/Shaders/Editor/SRS_CoverageShaderGUI_base.cs"
+"Assets/NOT_Lonely/Weatherade SRS/Shaders/Editor/URP_LitDetailGUI.cs"
 "Assets/Starter Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs"
 -langversion:9.0
 /deterministic

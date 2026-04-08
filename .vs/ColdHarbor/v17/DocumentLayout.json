@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "D:\\GameDev\\ColdHarbor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E027AFDA-B388-1BE3-1734-D9C892C51927}|Assembly-CSharp.csproj|D:\\GameDev\\ColdHarbor\\assets\\scripts\\gatecondition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GameDev\\ColdHarbor\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.12\\Shaders\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.12\\Shaders\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E027AFDA-B388-1BE3-1734-D9C892C51927}|Assembly-CSharp.csproj|d:\\gamedev\\coldharbor\\assets\\scripts\\gatecondition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E027AFDA-B388-1BE3-1734-D9C892C51927}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gatecondition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E027AFDA-B388-1BE3-1734-D9C892C51927}|Assembly-CSharp.csproj|d:\\gamedev\\coldharbor\\assets\\scripts\\teleportpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E027AFDA-B388-1BE3-1734-D9C892C51927}|Assembly-CSharp.csproj|D:\\GameDev\\ColdHarbor\\assets\\scripts\\teleportpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E027AFDA-B388-1BE3-1734-D9C892C51927}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\teleportpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -94,11 +98,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Lit.shader",
+              "DocumentMoniker": "D:\\GameDev\\ColdHarbor\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.12\\Shaders\\Lit.shader",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.12\\Shaders\\Lit.shader",
+              "ToolTip": "D:\\GameDev\\ColdHarbor\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.12\\Shaders\\Lit.shader",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.12\\Shaders\\Lit.shader",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2026-04-08T15:56:44.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "TeleportPoint.cs",
               "DocumentMoniker": "D:\\GameDev\\ColdHarbor\\Assets\\Scripts\\TeleportPoint.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TeleportPoint.cs",
@@ -106,12 +123,11 @@
               "RelativeToolTip": "Assets\\Scripts\\TeleportPoint.cs",
               "ViewState": "AgIAAJIAAAAAAAAAAAAEwJ4AAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T11:28:38.833Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-08T11:28:38.833Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "DoorOpener.cs",
               "DocumentMoniker": "D:\\GameDev\\ColdHarbor\\Assets\\Scripts\\DoorOpener.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DoorOpener.cs",
@@ -123,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "StorySubtitleUI.cs",
               "DocumentMoniker": "D:\\GameDev\\ColdHarbor\\Assets\\Scripts\\StorySubtitleUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\StorySubtitleUI.cs",
@@ -135,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ThirdPersonStarterAssetsDeployMenu.cs",
               "DocumentMoniker": "D:\\GameDev\\ColdHarbor\\Assets\\Starter Assets\\Editor\\ThirdPersonStarterAssetsDeployMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Starter Assets\\Editor\\ThirdPersonStarterAssetsDeployMenu.cs",
@@ -147,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "MonsterHeatBridge.cs",
               "DocumentMoniker": "D:\\GameDev\\ColdHarbor\\Assets\\Scripts\\MonsterHeatBridge.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MonsterHeatBridge.cs",
@@ -159,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "MonsterAI.cs",
               "DocumentMoniker": "D:\\GameDev\\ColdHarbor\\Assets\\Scripts\\MonsterAI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MonsterAI.cs",
@@ -171,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "TwoPointMover.cs",
               "DocumentMoniker": "D:\\GameDev\\ColdHarbor\\Assets\\Scripts\\TwoPointMover.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TwoPointMover.cs",
@@ -183,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "GateCondition.cs",
               "DocumentMoniker": "D:\\GameDev\\ColdHarbor\\Assets\\Scripts\\GateCondition.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GateCondition.cs",
@@ -196,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "ObjectStateCondition.cs",
               "DocumentMoniker": "D:\\GameDev\\ColdHarbor\\Assets\\Scripts\\ObjectStateCondition.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ObjectStateCondition.cs",
@@ -208,7 +224,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "PuzzleCondition.cs",
               "DocumentMoniker": "D:\\GameDev\\ColdHarbor\\Assets\\Scripts\\PuzzleCondition.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PuzzleCondition.cs",
@@ -220,7 +236,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "PuzzleGate.cs",
               "DocumentMoniker": "D:\\GameDev\\ColdHarbor\\Assets\\Scripts\\PuzzleGate.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PuzzleGate.cs",
@@ -232,7 +248,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "SignState.cs",
               "DocumentMoniker": "D:\\GameDev\\ColdHarbor\\Assets\\Scripts\\SignState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SignState.cs",
@@ -244,7 +260,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "IceRespawner.cs",
               "DocumentMoniker": "D:\\GameDev\\ColdHarbor\\Assets\\Scripts\\IceRespawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\IceRespawner.cs",
@@ -256,7 +272,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "PlayerInventory.cs",
               "DocumentMoniker": "D:\\GameDev\\ColdHarbor\\Assets\\Scripts\\PlayerInventory.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerInventory.cs",
@@ -268,7 +284,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "PlayerInteractor.cs",
               "DocumentMoniker": "D:\\GameDev\\ColdHarbor\\Assets\\Scripts\\PlayerInteractor.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerInteractor.cs",
@@ -280,7 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Pickupable.cs",
               "DocumentMoniker": "D:\\GameDev\\ColdHarbor\\Assets\\Scripts\\Pickupable.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Pickupable.cs",
@@ -292,7 +308,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "ThirdPersonController.cs",
               "DocumentMoniker": "D:\\GameDev\\ColdHarbor\\Assets\\Starter Assets\\Runtime\\ThirdPersonController\\Scripts\\ThirdPersonController.cs",
               "RelativeDocumentMoniker": "Assets\\Starter Assets\\Runtime\\ThirdPersonController\\Scripts\\ThirdPersonController.cs",
@@ -304,7 +320,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Blowtorch.cs",
               "DocumentMoniker": "D:\\GameDev\\ColdHarbor\\Assets\\Scripts\\Blowtorch.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Blowtorch.cs",
@@ -316,7 +332,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "HeatReceiver.cs",
               "DocumentMoniker": "D:\\GameDev\\ColdHarbor\\Assets\\Scripts\\HeatReceiver.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\HeatReceiver.cs",
@@ -328,7 +344,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Unity.TerrainTools.Editor.asmdef",
               "DocumentMoniker": "D:\\GameDev\\ColdHarbor\\Library\\PackageCache\\com.unity.terrain-tools@5.0.6\\Editor\\Unity.TerrainTools.Editor.asmdef",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.terrain-tools@5.0.6\\Editor\\Unity.TerrainTools.Editor.asmdef",
@@ -340,7 +356,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Flying.cs",
               "DocumentMoniker": "D:\\GameDev\\ColdHarbor\\Assets\\Forge Horizon\\Starter Assets Third Person Controller Superhero - Basic\\Scripts\\Flying.cs",
               "RelativeDocumentMoniker": "Assets\\Forge Horizon\\Starter Assets Third Person Controller Superhero - Basic\\Scripts\\Flying.cs",

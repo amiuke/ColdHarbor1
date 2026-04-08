@@ -1,0 +1,795 @@
+Using pre-set license
+Built from '2022.3/respin/2022.3.62f2-4af31df585-v2' branch; Version is '2022.3.62f2 (7670c08855a9) revision 7762112'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 32496 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\GameDev\2022.3.62f2\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker13
+-projectPath
+D:/GameDev/ColdHarbor
+-logFile
+Logs/AssetImportWorker13.log
+-srvPort
+54677
+Successfully changed project path to: D:/GameDev/ColdHarbor
+D:/GameDev/ColdHarbor
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [10776]  Target information:
+
+Player connection [10776]  * "[IP] 192.168.1.94 [Port] 0 [Flags] 2 [Guid] 1858665274 [EditorId] 1858665274 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-ARDCM2V) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [10776] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [10776] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+Refreshing native plugins compatible for Editor in 12.22 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.62f2 (7670c08855a9)
+[Subsystems] Discovering subsystems at path D:/GameDev/2022.3.62f2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GameDev/ColdHarbor/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28a0)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.7283
+Initialize mono
+Mono path[0] = 'D:/GameDev/2022.3.62f2/Editor/Data/Managed'
+Mono path[1] = 'D:/GameDev/2022.3.62f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/GameDev/2022.3.62f2/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56696
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/GameDev/2022.3.62f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003174 seconds.
+- Loaded All Assemblies, in  0.520 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.233 seconds
+Domain Reload Profiling: 753ms
+	BeginReloadAssembly (254ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (171ms)
+		LoadAssemblies (253ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (169ms)
+			TypeCache.Refresh (167ms)
+				TypeCache.ScanAssembly (150ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (234ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (186ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (132ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.144 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.091 seconds
+Domain Reload Profiling: 2235ms
+	BeginReloadAssembly (150ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (78ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (870ms)
+		LoadAssemblies (578ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (383ms)
+			TypeCache.Refresh (329ms)
+				TypeCache.ScanAssembly (283ms)
+			ScanForSourceGeneratedMonoScriptInfo (34ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1092ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (894ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (151ms)
+			ProcessInitializeOnLoadAttributes (646ms)
+			ProcessInitializeOnLoadMethodAttributes (87ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'NOT_Lonely/Weatherade/Rain Coverage (Terrain)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'NOT_Lonely/Weatherade/Rain Coverage (Terrain)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/NOT_Lonely/Weatherade/Snow Coverage (Terrain-Bake)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/NOT_Lonely/Weatherade/Snow Coverage (Terrain-Bake)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/NOT_Lonely/Weatherade/RainTerrainBakeAddPass' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/NOT_Lonely/Weatherade/RainTerrainBakeAddPass' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/NOT_Lonely/Weatherade/Rain Coverage (Terrain-Bake)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/NOT_Lonely/Weatherade/Rain Coverage (Terrain-Bake)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Error creating external process 'D:/GameDev/2022.3.62f2/Editor/Data/Tools/UnityShaderCompiler.exe' : 页面文件太小，无法完成操作。
+Error cleaning up external process: 句柄无效。
+Failed to launch UnityShaderCompiler.exe shader compiler! D:/GameDev/2022.3.62f2/Editor/Data/Tools/UnityShaderCompiler.exe
+Error creating external process 'D:/GameDev/2022.3.62f2/Editor/Data/Tools/UnityShaderCompiler.exe' : 页面文件太小，无法完成操作。
+Error cleaning up external process: 句柄无效。
+Failed to launch UnityShaderCompiler.exe shader compiler! D:/GameDev/2022.3.62f2/Editor/Data/Tools/UnityShaderCompiler.exe
+Error creating external process 'D:/GameDev/2022.3.62f2/Editor/Data/Tools/UnityShaderCompiler.exe' : 页面文件太小，无法完成操作。
+Error cleaning up external process: 句柄无效。
+Failed to launch UnityShaderCompiler.exe shader compiler! D:/GameDev/2022.3.62f2/Editor/Data/Tools/UnityShaderCompiler.exe
+Error creating external process 'D:/GameDev/2022.3.62f2/Editor/Data/Tools/UnityShaderCompiler.exe' : 页面文件太小，无法完成操作。
+Error cleaning up external process: 句柄无效。
+Failed to launch UnityShaderCompiler.exe shader compiler! D:/GameDev/2022.3.62f2/Editor/Data/Tools/UnityShaderCompiler.exe
+Error creating external process 'D:/GameDev/2022.3.62f2/Editor/Data/Tools/UnityShaderCompiler.exe' : 页面文件太小，无法完成操作。
+Error cleaning up external process: 句柄无效。
+Failed to launch UnityShaderCompiler.exe shader compiler! D:/GameDev/2022.3.62f2/Editor/Data/Tools/UnityShaderCompiler.exe
+Error creating external process 'D:/GameDev/2022.3.62f2/Editor/Data/Tools/UnityShaderCompiler.exe' : 页面文件太小，无法完成操作。
+Error cleaning up external process: 句柄无效。
+Failed to launch UnityShaderCompiler.exe shader compiler! D:/GameDev/2022.3.62f2/Editor/Data/Tools/UnityShaderCompiler.exe
+Error creating external process 'D:/GameDev/2022.3.62f2/Editor/Data/Tools/UnityShaderCompiler.exe' : 页面文件太小，无法完成操作。
+Error cleaning up external process: 句柄无效。
+Failed to launch UnityShaderCompiler.exe shader compiler! D:/GameDev/2022.3.62f2/Editor/Data/Tools/UnityShaderCompiler.exe
+Error creating external process 'D:/GameDev/2022.3.62f2/Editor/Data/Tools/UnityShaderCompiler.exe' : 页面文件太小，无法完成操作。
+Error cleaning up external process: 句柄无效。
+Failed to launch UnityShaderCompiler.exe shader compiler! D:/GameDev/2022.3.62f2/Editor/Data/Tools/UnityShaderCompiler.exe
+Error creating external process 'D:/GameDev/2022.3.62f2/Editor/Data/Tools/UnityShaderCompiler.exe' : 页面文件太小，无法完成操作。
+Error cleaning up external process: 句柄无效。
+Failed to launch UnityShaderCompiler.exe shader compiler! D:/GameDev/2022.3.62f2/Editor/Data/Tools/UnityShaderCompiler.exe
+Error creating external process 'D:/GameDev/2022.3.62f2/Editor/Data/Tools/UnityShaderCompiler.exe' : 页面文件太小，无法完成操作。
+Error cleaning up external process: 句柄无效。
+Failed to launch UnityShaderCompiler.exe shader compiler! D:/GameDev/2022.3.62f2/Editor/Data/Tools/UnityShaderCompiler.exe
+Shader compiler: failed to launch and initialize compiler executable, even after 10 retries
+Shader compiler initialization error: Failed to launch UnityShaderCompiler.exe shader compiler! D:/GameDev/2022.3.62f2/Editor/Data/Tools/UnityShaderCompiler.exe
+Fatal Error! Shader compiler initialization error: Failed to launch UnityShaderCompiler.exe shader compiler! D:/GameDev/2022.3.62f2/Editor/Data/Tools/UnityShaderCompiler.exe
+
+Crash!!!
+  ERROR: Error while initializing dbghelp.dll, GetLastError: '操作成功完成。
+' (Address: 0000000000000000)
+
+========== OUTPUTTING STACK TRACE ==================
+
+  ERROR: SymInitialize, GetLastError: '内存资源不足，无法处理此命令。
+' (Address: 0000000000000000)
+  ERROR: SymGetSearchPath, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+SymInit: Symbol-SearchPath: '', symOptions: 534, UserName: 'amiuke'
+OS-Version: 10.0.0
+D:\GameDev\2022.3.62f2\Editor\Unity.exe:Unity.exe (00007FF660AD0000), size: 83107840 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 2022.3.62.28864
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\SYSTEM32\ntdll.dll:ntdll.dll (00007FFAD1A40000), size: 2519040 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7920
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\System32\KERNEL32.DLL:KERNEL32.DLL (00007FFAD0070000), size: 823296 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7920
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\System32\KERNELBASE.dll:KERNELBASE.dll (00007FFACE750000), size: 4132864 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7920
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\System32\CRYPT32.dll:CRYPT32.dll (00007FFACF5D0000), size: 1536000 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7309
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\System32\ucrtbase.dll:ucrtbase.dll (00007FFACEC10000), size: 1355776 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7623
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\System32\USER32.dll:USER32.dll (00007FFACF860000), size: 1855488 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7920
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\System32\win32u.dll:win32u.dll (00007FFACE320000), size: 159744 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.8036
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\System32\GDI32.dll:GDI32.dll (00007FFACFA90000), size: 176128 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.8036
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+D:\GameDev\2022.3.62f2\Editor\s3tcompress.dll:s3tcompress.dll (00007FFAB4B00000), size: 180224 (result: 6), SymType: '-unknown-', PDB: ''
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+D:\GameDev\2022.3.62f2\Editor\libfbxsdk.dll:libfbxsdk.dll (00007FFA86060000), size: 8019968 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 2020.3.7.0
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\System32\gdi32full.dll:gdi32full.dll (00007FFACE350000), size: 1224704 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.8036
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+D:\GameDev\2022.3.62f2\Editor\etccompress.dll:etccompress.dll (00007FFA5C420000), size: 5070848 (result: 6), SymType: '-unknown-', PDB: ''
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+D:\GameDev\2022.3.62f2\Editor\ispc_texcomp.dll:ispc_texcomp.dll (00007FFA8FC00000), size: 1826816 (result: 6), SymType: '-unknown-', PDB: ''
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+D:\GameDev\2022.3.62f2\Editor\compress_bc7e.dll:compress_bc7e.dll (00007FFA61660000), size: 1433600 (result: 6), SymType: '-unknown-', PDB: ''
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+D:\GameDev\2022.3.62f2\Editor\FreeImage.dll:FreeImage.dll (0000000180000000), size: 5783552 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 3.18.0.0
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\System32\WS2_32.dll:WS2_32.dll (00007FFAD07A0000), size: 475136 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7623
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\System32\msvcp_win.dll:msvcp_win.dll (00007FFACE530000), size: 667648 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7623
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\System32\ADVAPI32.dll:ADVAPI32.dll (00007FFAD13D0000), size: 765952 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7920
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+D:\GameDev\2022.3.62f2\Editor\WinPixEventRuntime.dll:WinPixEventRuntime.dll (00007FFAC7B10000), size: 45056 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 1.0.1812.6001
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\System32\RPCRT4.dll:RPCRT4.dll (00007FFAD1820000), size: 1146880 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.8036
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\System32\msvcrt.dll:msvcrt.dll (00007FFACFAE0000), size: 692224 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 7.0.26100.7623
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\System32\sechost.dll:sechost.dll (00007FFAD10C0000), size: 684032 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7920
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\System32\SHELL32.dll:SHELL32.dll (00007FFAD08E0000), size: 7729152 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7920
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+D:\GameDev\2022.3.62f2\Editor\umbraoptimizer64.dll:umbraoptimizer64.dll (00007FFA5DDC0000), size: 1187840 (result: 6), SymType: '-unknown-', PDB: ''
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\System32\wintypes.dll:wintypes.dll (00007FFACE5E0000), size: 1482752 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7920
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\System32\combase.dll:combase.dll (00007FFAD1490000), size: 3678208 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7920
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\System32\SHLWAPI.dll:SHLWAPI.dll (00007FFAD0830000), size: 421888 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7920
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\System32\Windows.Storage.dll:Windows.Storage.dll (00007FFACED60000), size: 8798208 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.8036
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\System32\ole32.dll:ole32.dll (00007FFAD0170000), size: 1658880 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7920
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\SYSTEM32\MSVCP140.dll:MSVCP140.dll (00007FFAAA0A0000), size: 561152 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 14.44.35211.0
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\SYSTEM32\VCRUNTIME140.dll:VCRUNTIME140.dll (00007FFAAA130000), size: 122880 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 14.44.35211.0
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\System32\IMM32.dll:IMM32.dll (00007FFAD08A0000), size: 200704 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7309
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\SYSTEM32\VCRUNTIME140_1.dll:VCRUNTIME140_1.dll (00007FFAAA800000), size: 49152 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 14.44.35211.0
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\System32\SETUPAPI.dll:SETUPAPI.dll (00007FFAD0310000), size: 4747264 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7920
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\System32\OLEAUT32.dll:OLEAUT32.dll (00007FFACFE90000), size: 880640 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7920
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\System32\WINTRUST.dll:WINTRUST.dll (00007FFACF750000), size: 528384 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.8036
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\SYSTEM32\OPENGL32.dll:OPENGL32.dll (00007FFA22000000), size: 1105920 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7920
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\SYSTEM32\GLU32.dll:GLU32.dll (00007FFA2FCA0000), size: 184320 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.1150
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL:IPHLPAPI.DLL (00007FFACCAC0000), size: 208896 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7920
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\SYSTEM32\WINHTTP.dll:WINHTTP.dll (00007FFAC7980000), size: 1208320 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7920
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\SYSTEM32\WINMM.dll:WINMM.dll (00007FFAC2290000), size: 217088 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7309
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\SYSTEM32\bcrypt.dll:bcrypt.dll (00007FFACE210000), size: 172032 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7623
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\SYSTEM32\HID.DLL:HID.DLL (00007FFACC790000), size: 61440 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.1150
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\SYSTEM32\dwmapi.dll:dwmapi.dll (00007FFACBD50000), size: 188416 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7920
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+D:\GameDev\2022.3.62f2\Editor\NativeProxyHelper.dll:NativeProxyHelper.dll (00007FFA5D740000), size: 1789952 (result: 6), SymType: '-unknown-', PDB: ''
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+D:\GameDev\2022.3.62f2\Editor\SketchUpAPI.dll:SketchUpAPI.dll (00007FFA5BB80000), size: 8990720 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 23.0.0.0
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\SYSTEM32\VERSION.dll:VERSION.dll (00007FFAC3530000), size: 45056 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.1150
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\SYSTEM32\WSOCK32.dll:WSOCK32.dll (00007FFABE860000), size: 40960 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.1
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\SYSTEM32\Secur32.dll:Secur32.dll (00007FFACB6E0000), size: 53248 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7705
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+D:\GameDev\2022.3.62f2\Editor\SketchUpCommonPreferences.dll:SketchUpCommonPreferences.dll (00007FFAA2AC0000), size: 499712 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 23.0.0.0
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\SYSTEM32\dxcore.dll:dxcore.dll (00007FFACBB90000), size: 274432 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7920
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\SYSTEM32\SSPICLI.DLL:SSPICLI.DLL (00007FFACD350000), size: 299008 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7920
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+D:\GameDev\2022.3.62f2\Editor\OpenRL.dll:OpenRL.dll (000001EC79F10000), size: 12779520 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 1.5.0.2907
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\SYSTEM32\MSVCR100.dll:MSVCR100.dll (000000005D220000), size: 860160 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.40219.325
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\SYSTEM32\MSVCP100.dll:MSVCP100.dll (000000005D300000), size: 622592 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.40219.325
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+D:\GameDev\2022.3.62f2\Editor\embree.dll:embree.dll (00007FFA582A0000), size: 16711680 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 2.14.0.0
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\SYSTEM32\cfgmgr32.DLL:cfgmgr32.DLL (00007FFACDE80000), size: 356352 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7309
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\SYSTEM32\MSWSOCK.DLL:MSWSOCK.DLL (00007FFACD620000), size: 438272 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7920
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+D:\GameDev\2022.3.62f2\Editor\tbb.dll:tbb.dll (00007FFA9E990000), size: 413696 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 2017.0.2016.1004
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\SYSTEM32\MSVCP120.dll:MSVCP120.dll (00007FFA92DF0000), size: 679936 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 12.0.40664.0
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\SYSTEM32\MSVCR120.dll:MSVCR120.dll (00007FFA92A50000), size: 978944 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 12.0.40664.0
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+D:\GameDev\2022.3.62f2\Editor\OpenRL_pthread.dll:OpenRL_pthread.dll (000001EC7AB40000), size: 61440 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 2.9.0.0
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\SYSTEM32\MSASN1.dll:MSASN1.dll (00007FFACD970000), size: 77824 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7623
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\System32\bcryptprimitives.dll:bcryptprimitives.dll (00007FFACE480000), size: 675840 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7623
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\SYSTEM32\kernel.appcore.dll:kernel.appcore.dll (00007FFACD0B0000), size: 110592 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7920
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\system32\uxtheme.dll:uxtheme.dll (00007FFACBA90000), size: 696320 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7920
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\ProgramData\A-Volute\A-Volute.Nahimic\Modules\Scheduled\x64\AudioDevProps2.dll:AudioDevProps2.dll (00007FFA626A0000), size: 1257472 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 2.6.30.0
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\System32\SHCORE.dll:SHCORE.dll (00007FFACFF70000), size: 1011712 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7920
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\SYSTEM32\profapi.dll:profapi.dll (00007FFACE240000), size: 167936 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7309
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\system32\IconCodecService.dll:IconCodecService.dll (00007FFACA820000), size: 45056 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.1
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\SYSTEM32\WindowsCodecs.dll:WindowsCodecs.dll (00007FFAC8DE0000), size: 2281472 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7920
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\System32\clbcatq.dll:clbcatq.dll (00007FFAD1940000), size: 712704 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 2001.12.10941.16384
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\System32\netprofm.dll:netprofm.dll (00007FFACAC70000), size: 454656 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7920
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\System32\npmproxy.dll:npmproxy.dll (00007FFAC63A0000), size: 102400 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7309
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\System32\NSI.dll:NSI.dll (00007FFAD0820000), size: 40960 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7920
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\SYSTEM32\dhcpcsvc6.DLL:dhcpcsvc6.DLL (00007FFAC83E0000), size: 118784 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7920
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\SYSTEM32\dhcpcsvc.DLL:dhcpcsvc.DLL (00007FFAC83B0000), size: 143360 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7920
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\SYSTEM32\DNSAPI.dll:DNSAPI.dll (00007FFACCB00000), size: 1220608 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7920
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\system32\napinsp.dll:napinsp.dll (00007FFAA5BE0000), size: 98304 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.1150
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\System32\winrnr.dll:winrnr.dll (00007FFAA3050000), size: 73728 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.1882
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\system32\nlansp_c.dll:nlansp_c.dll (00007FFAA3020000), size: 139264 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7309
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\system32\wshbth.dll:wshbth.dll (00007FFAC3540000), size: 90112 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.5074
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\System32\fwpuclnt.dll:fwpuclnt.dll (00007FFAC9030000), size: 548864 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7920
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\Windows\System32\rasadhlp.dll:rasadhlp.dll (00007FFAC71B0000), size: 45056 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7920
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+D:\GameDev\2022.3.62f2\Editor\NVUnityPlugin.DLL:NVUnityPlugin.DLL (00007FFAA8330000), size: 1609728 (result: 6), SymType: '-unknown-', PDB: ''
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+D:\GameDev\2022.3.62f2\Editor\Data\Tools\astcenc-avx2.dll:astcenc-avx2.dll (00007FFA61A40000), size: 540672 (result: 6), SymType: '-unknown-', PDB: ''
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\System32\MMDevApi.dll:MMDevApi.dll (00007FFAC63E0000), size: 622592 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7920
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\System32\DEVOBJ.dll:DEVOBJ.dll (00007FFACDEE0000), size: 184320 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.1150
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\SYSTEM32\AudioSes.dll:AudioSes.dll (00007FFAB7590000), size: 1777664 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7920
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\ProgramData\A-Volute\A-Volute.Nahimic\Modules\Scheduled\x64\ProductInfo.dll:ProductInfo.dll (00007FFA9AC80000), size: 421888 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 1.10.9.0
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\ProgramData\A-Volute\A-Volute.Nahimic\Modules\Scheduled\x64\ASM.Plugin.AudioDevProps2.dll:ASM.Plugin.AudioDevProps2.dll (00007FFA48470000), size: 274432 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 1.0.2.0
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\SYSTEM32\d3d11.dll:d3d11.dll (00007FFAC9D10000), size: 2502656 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7920
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\SYSTEM32\dxgi.dll:dxgi.dll (00007FFACBBE0000), size: 1302528 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7920
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\SYSTEM32\powrprof.dll:powrprof.dll (00007FFACE180000), size: 385024 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.3912
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\SYSTEM32\UMPDC.dll:UMPDC.dll (00007FFACE160000), size: 81920 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7019
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\SYSTEM32\directxdatabasehelper.dll:directxdatabasehelper.dll (00007FFAC6480000), size: 393216 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7920
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\System32\DriverStore\FileRepository\nvtf.inf_amd64_f7df59a98b1aeb40\nvldumdx.dll:nvldumdx.dll (00007FFAC2AD0000), size: 794624 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 32.0.15.7283
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\SYSTEM32\cryptnet.dll:cryptnet.dll (00007FFAC34F0000), size: 241664 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7309
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\SYSTEM32\cryptbase.dll:cryptbase.dll (00007FFACD920000), size: 49152 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7623
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\SYSTEM32\wldp.dll:wldp.dll (00007FFACD9E0000), size: 425984 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7920
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\SYSTEM32\drvstore.dll:drvstore.dll (00007FFAC2FA0000), size: 1540096 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7920
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\System32\imagehlp.dll:imagehlp.dll (00007FFAD0140000), size: 131072 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.4202
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\SYSTEM32\CRYPTSP.dll:CRYPTSP.dll (00007FFACD900000), size: 110592 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7705
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\system32\rsaenh.dll:rsaenh.dll (00007FFACD010000), size: 233472 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7705
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\System32\DriverStore\FileRepository\nvtf.inf_amd64_f7df59a98b1aeb40\nvgpucomp64.dll:nvgpucomp64.dll (00007FFABEAF0000), size: 58302464 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 32.0.15.7283
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\System32\DriverStore\FileRepository\nvtf.inf_amd64_f7df59a98b1aeb40\Display.NvContainer\NvMessageBus.dll:NvMessageBus.dll (00007FFAB4120000), size: 3551232 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 3.15.3538.9611
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\System32\DriverStore\FileRepository\nvtf.inf_amd64_f7df59a98b1aeb40\NvMemMapStoragex.dll:NvMemMapStoragex.dll (00007FFABE510000), size: 880640 (result: 6), SymType: '-unknown-', PDB: ''
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\System32\DriverStore\FileRepository\nvtf.inf_amd64_f7df59a98b1aeb40\nvwgf2umx.dll:nvwgf2umx.dll (00007FFAB7B80000), size: 87109632 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 32.0.15.7283
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\system32\nvspcap64.dll:nvspcap64.dll (00007FFA90000000), size: 3170304 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 11.0.3.232
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\SYSTEM32\ntmarta.dll:ntmarta.dll (00007FFACD1D0000), size: 221184 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.7019
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\System32\DriverStore\FileRepository\nvtf.inf_amd64_f7df59a98b1aeb40\nvppex.dll:nvppex.dll (00007FFA8B230000), size: 1785856 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 32.0.15.7283
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+D:\GameDev\2022.3.62f2\Editor\cudart64_90.dll:cudart64_90.dll (00007FFAA82C0000), size: 397312 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 6.14.11.9000
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\SYSTEM32\opencl.dll:opencl.dll (00007FFA62420000), size: 483328 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 3.0.6.0
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+D:\GameDev\2022.3.62f2\Editor\radeonrays.dll:radeonrays.dll (00007FFA61880000), size: 557056 (result: 6), SymType: '-unknown-', PDB: ''
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+D:\GameDev\2022.3.62f2\Editor\Data\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll:mono-2.0-bdwgc.dll (00007FFA54FC0000), size: 10825728 (result: 6), SymType: '-unknown-', PDB: ''
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\SYSTEM32\dbghelp.dll:dbghelp.dll (00007FFACC2C0000), size: 2367488 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.5074
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+C:\WINDOWS\System32\psapi.dll:psapi.dll (00007FFACFA80000), size: 32768 (result: 6), SymType: '-unknown-', PDB: '', fileVersion: 10.0.26100.1
+  ERROR: LoadModule, GetLastError: '句柄无效。
+' (Address: 0000000000000000)
+SymInit: Symbol-SearchPath: 'D:/GameDev/2022.3.62f2/Editor/Data/Mono;.;D:\GameDev\ColdHarbor;D:\GameDev\ColdHarbor\Library\BurstCache\JIT;D:\GameDev\2022.3.62f2\Editor;C:\WINDOWS;C:\WINDOWS\system32;', symOptions: 534, UserName: 'amiuke'
+OS-Version: 10.0.0
+D:\GameDev\2022.3.62f2\Editor\Unity.exe:Unity.exe (00007FF660AD0000), size: 83107840 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2022.3.62.28864
+C:\WINDOWS\SYSTEM32\ntdll.dll:ntdll.dll (00007FFAD1A40000), size: 2519040 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\WINDOWS\System32\KERNEL32.DLL:KERNEL32.DLL (00007FFAD0070000), size: 823296 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\WINDOWS\System32\KERNELBASE.dll:KERNELBASE.dll (00007FFACE750000), size: 4132864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\WINDOWS\System32\CRYPT32.dll:CRYPT32.dll (00007FFACF5D0000), size: 1536000 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7309
+C:\WINDOWS\System32\ucrtbase.dll:ucrtbase.dll (00007FFACEC10000), size: 1355776 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7623
+C:\WINDOWS\System32\USER32.dll:USER32.dll (00007FFACF860000), size: 1855488 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\WINDOWS\System32\win32u.dll:win32u.dll (00007FFACE320000), size: 159744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8036
+C:\WINDOWS\System32\GDI32.dll:GDI32.dll (00007FFACFA90000), size: 176128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8036
+D:\GameDev\2022.3.62f2\Editor\s3tcompress.dll:s3tcompress.dll (00007FFAB4B00000), size: 180224 (result: 0), SymType: '-deferred-', PDB: ''
+D:\GameDev\2022.3.62f2\Editor\libfbxsdk.dll:libfbxsdk.dll (00007FFA86060000), size: 8019968 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2020.3.7.0
+C:\WINDOWS\System32\gdi32full.dll:gdi32full.dll (00007FFACE350000), size: 1224704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8036
+D:\GameDev\2022.3.62f2\Editor\etccompress.dll:etccompress.dll (00007FFA5C420000), size: 5070848 (result: 0), SymType: '-deferred-', PDB: ''
+D:\GameDev\2022.3.62f2\Editor\ispc_texcomp.dll:ispc_texcomp.dll (00007FFA8FC00000), size: 1826816 (result: 0), SymType: '-deferred-', PDB: ''
+D:\GameDev\2022.3.62f2\Editor\compress_bc7e.dll:compress_bc7e.dll (00007FFA61660000), size: 1433600 (result: 0), SymType: '-deferred-', PDB: ''
+D:\GameDev\2022.3.62f2\Editor\FreeImage.dll:FreeImage.dll (0000000180000000), size: 5783552 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.18.0.0
+C:\WINDOWS\System32\WS2_32.dll:WS2_32.dll (00007FFAD07A0000), size: 475136 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7623
+C:\WINDOWS\System32\msvcp_win.dll:msvcp_win.dll (00007FFACE530000), size: 667648 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7623
+C:\WINDOWS\System32\ADVAPI32.dll:ADVAPI32.dll (00007FFAD13D0000), size: 765952 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+D:\GameDev\2022.3.62f2\Editor\WinPixEventRuntime.dll:WinPixEventRuntime.dll (00007FFAC7B10000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.0.1812.6001
+C:\WINDOWS\System32\RPCRT4.dll:RPCRT4.dll (00007FFAD1820000), size: 1146880 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8036
+C:\WINDOWS\System32\msvcrt.dll:msvcrt.dll (00007FFACFAE0000), size: 692224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.26100.7623
+C:\WINDOWS\System32\sechost.dll:sechost.dll (00007FFAD10C0000), size: 684032 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\WINDOWS\System32\SHELL32.dll:SHELL32.dll (00007FFAD08E0000), size: 7729152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+D:\GameDev\2022.3.62f2\Editor\umbraoptimizer64.dll:umbraoptimizer64.dll (00007FFA5DDC0000), size: 1187840 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\System32\wintypes.dll:wintypes.dll (00007FFACE5E0000), size: 1482752 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\WINDOWS\System32\combase.dll:combase.dll (00007FFAD1490000), size: 3678208 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\WINDOWS\System32\SHLWAPI.dll:SHLWAPI.dll (00007FFAD0830000), size: 421888 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\WINDOWS\System32\Windows.Storage.dll:Windows.Storage.dll (00007FFACED60000), size: 8798208 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8036
+C:\WINDOWS\System32\ole32.dll:ole32.dll (00007FFAD0170000), size: 1658880 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\WINDOWS\SYSTEM32\MSVCP140.dll:MSVCP140.dll (00007FFAAA0A0000), size: 561152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.44.35211.0
+C:\WINDOWS\SYSTEM32\VCRUNTIME140.dll:VCRUNTIME140.dll (00007FFAAA130000), size: 122880 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.44.35211.0
+C:\WINDOWS\System32\IMM32.dll:IMM32.dll (00007FFAD08A0000), size: 200704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7309
+C:\WINDOWS\SYSTEM32\VCRUNTIME140_1.dll:VCRUNTIME140_1.dll (00007FFAAA800000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.44.35211.0
+C:\WINDOWS\System32\SETUPAPI.dll:SETUPAPI.dll (00007FFAD0310000), size: 4747264 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\WINDOWS\System32\OLEAUT32.dll:OLEAUT32.dll (00007FFACFE90000), size: 880640 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\WINDOWS\System32\WINTRUST.dll:WINTRUST.dll (00007FFACF750000), size: 528384 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8036
+C:\WINDOWS\SYSTEM32\OPENGL32.dll:OPENGL32.dll (00007FFA22000000), size: 1105920 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\WINDOWS\SYSTEM32\GLU32.dll:GLU32.dll (00007FFA2FCA0000), size: 184320 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
+C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL:IPHLPAPI.DLL (00007FFACCAC0000), size: 208896 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\WINDOWS\SYSTEM32\WINHTTP.dll:WINHTTP.dll (00007FFAC7980000), size: 1208320 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\WINDOWS\SYSTEM32\WINMM.dll:WINMM.dll (00007FFAC2290000), size: 217088 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7309
+C:\WINDOWS\SYSTEM32\bcrypt.dll:bcrypt.dll (00007FFACE210000), size: 172032 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7623
+C:\WINDOWS\SYSTEM32\HID.DLL:HID.DLL (00007FFACC790000), size: 61440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
+C:\WINDOWS\SYSTEM32\dwmapi.dll:dwmapi.dll (00007FFACBD50000), size: 188416 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+D:\GameDev\2022.3.62f2\Editor\NativeProxyHelper.dll:NativeProxyHelper.dll (00007FFA5D740000), size: 1789952 (result: 0), SymType: '-deferred-', PDB: ''
+D:\GameDev\2022.3.62f2\Editor\SketchUpAPI.dll:SketchUpAPI.dll (00007FFA5BB80000), size: 8990720 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 23.0.0.0
+C:\WINDOWS\SYSTEM32\VERSION.dll:VERSION.dll (00007FFAC3530000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
+C:\WINDOWS\SYSTEM32\WSOCK32.dll:WSOCK32.dll (00007FFABE860000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1
+C:\WINDOWS\SYSTEM32\Secur32.dll:Secur32.dll (00007FFACB6E0000), size: 53248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7705
+D:\GameDev\2022.3.62f2\Editor\SketchUpCommonPreferences.dll:SketchUpCommonPreferences.dll (00007FFAA2AC0000), size: 499712 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 23.0.0.0
+C:\WINDOWS\SYSTEM32\dxcore.dll:dxcore.dll (00007FFACBB90000), size: 274432 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\WINDOWS\SYSTEM32\SSPICLI.DLL:SSPICLI.DLL (00007FFACD350000), size: 299008 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+D:\GameDev\2022.3.62f2\Editor\OpenRL.dll:OpenRL.dll (000001EC79F10000), size: 12779520 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.5.0.2907
+C:\WINDOWS\SYSTEM32\MSVCR100.dll:MSVCR100.dll (000000005D220000), size: 860160 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.40219.325
+C:\WINDOWS\SYSTEM32\MSVCP100.dll:MSVCP100.dll (000000005D300000), size: 622592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.40219.325
+D:\GameDev\2022.3.62f2\Editor\embree.dll:embree.dll (00007FFA582A0000), size: 16711680 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.14.0.0
+C:\WINDOWS\SYSTEM32\cfgmgr32.DLL:cfgmgr32.DLL (00007FFACDE80000), size: 356352 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7309
+C:\WINDOWS\SYSTEM32\MSWSOCK.DLL:MSWSOCK.DLL (00007FFACD620000), size: 438272 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+D:\GameDev\2022.3.62f2\Editor\tbb.dll:tbb.dll (00007FFA9E990000), size: 413696 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2017.0.2016.1004
+C:\WINDOWS\SYSTEM32\MSVCP120.dll:MSVCP120.dll (00007FFA92DF0000), size: 679936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 12.0.40664.0
+C:\WINDOWS\SYSTEM32\MSVCR120.dll:MSVCR120.dll (00007FFA92A50000), size: 978944 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 12.0.40664.0
+D:\GameDev\2022.3.62f2\Editor\OpenRL_pthread.dll:OpenRL_pthread.dll (000001EC7AB40000), size: 61440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.9.0.0
+C:\WINDOWS\SYSTEM32\MSASN1.dll:MSASN1.dll (00007FFACD970000), size: 77824 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7623
+C:\WINDOWS\System32\bcryptprimitives.dll:bcryptprimitives.dll (00007FFACE480000), size: 675840 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7623
+C:\WINDOWS\SYSTEM32\kernel.appcore.dll:kernel.appcore.dll (00007FFACD0B0000), size: 110592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\WINDOWS\system32\uxtheme.dll:uxtheme.dll (00007FFACBA90000), size: 696320 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\ProgramData\A-Volute\A-Volute.Nahimic\Modules\Scheduled\x64\AudioDevProps2.dll:AudioDevProps2.dll (00007FFA626A0000), size: 1257472 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.6.30.0
+C:\WINDOWS\System32\SHCORE.dll:SHCORE.dll (00007FFACFF70000), size: 1011712 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\WINDOWS\SYSTEM32\profapi.dll:profapi.dll (00007FFACE240000), size: 167936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7309
+C:\WINDOWS\system32\IconCodecService.dll:IconCodecService.dll (00007FFACA820000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1
+C:\WINDOWS\SYSTEM32\WindowsCodecs.dll:WindowsCodecs.dll (00007FFAC8DE0000), size: 2281472 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\WINDOWS\System32\clbcatq.dll:clbcatq.dll (00007FFAD1940000), size: 712704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2001.12.10941.16384
+C:\WINDOWS\System32\netprofm.dll:netprofm.dll (00007FFACAC70000), size: 454656 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\WINDOWS\System32\npmproxy.dll:npmproxy.dll (00007FFAC63A0000), size: 102400 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7309
+C:\WINDOWS\System32\NSI.dll:NSI.dll (00007FFAD0820000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\WINDOWS\SYSTEM32\dhcpcsvc6.DLL:dhcpcsvc6.DLL (00007FFAC83E0000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\WINDOWS\SYSTEM32\dhcpcsvc.DLL:dhcpcsvc.DLL (00007FFAC83B0000), size: 143360 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\WINDOWS\SYSTEM32\DNSAPI.dll:DNSAPI.dll (00007FFACCB00000), size: 1220608 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\WINDOWS\system32\napinsp.dll:napinsp.dll (00007FFAA5BE0000), size: 98304 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
+C:\WINDOWS\System32\winrnr.dll:winrnr.dll (00007FFAA3050000), size: 73728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
+C:\WINDOWS\system32\nlansp_c.dll:nlansp_c.dll (00007FFAA3020000), size: 139264 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7309
+C:\WINDOWS\system32\wshbth.dll:wshbth.dll (00007FFAC3540000), size: 90112 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.5074
+C:\WINDOWS\System32\fwpuclnt.dll:fwpuclnt.dll (00007FFAC9030000), size: 548864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\Windows\System32\rasadhlp.dll:rasadhlp.dll (00007FFAC71B0000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+D:\GameDev\2022.3.62f2\Editor\NVUnityPlugin.DLL:NVUnityPlugin.DLL (00007FFAA8330000), size: 1609728 (result: 0), SymType: '-deferred-', PDB: ''
+D:\GameDev\2022.3.62f2\Editor\Data\Tools\astcenc-avx2.dll:astcenc-avx2.dll (00007FFA61A40000), size: 540672 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\System32\MMDevApi.dll:MMDevApi.dll (00007FFAC63E0000), size: 622592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\WINDOWS\System32\DEVOBJ.dll:DEVOBJ.dll (00007FFACDEE0000), size: 184320 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
+C:\WINDOWS\SYSTEM32\AudioSes.dll:AudioSes.dll (00007FFAB7590000), size: 1777664 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\ProgramData\A-Volute\A-Volute.Nahimic\Modules\Scheduled\x64\ProductInfo.dll:ProductInfo.dll (00007FFA9AC80000), size: 421888 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.10.9.0
+C:\ProgramData\A-Volute\A-Volute.Nahimic\Modules\Scheduled\x64\ASM.Plugin.AudioDevProps2.dll:ASM.Plugin.AudioDevProps2.dll (00007FFA48470000), size: 274432 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.0.2.0
+C:\WINDOWS\SYSTEM32\d3d11.dll:d3d11.dll (00007FFAC9D10000), size: 2502656 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\WINDOWS\SYSTEM32\dxgi.dll:dxgi.dll (00007FFACBBE0000), size: 1302528 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\WINDOWS\SYSTEM32\powrprof.dll:powrprof.dll (00007FFACE180000), size: 385024 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3912
+C:\WINDOWS\SYSTEM32\UMPDC.dll:UMPDC.dll (00007FFACE160000), size: 81920 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\WINDOWS\SYSTEM32\directxdatabasehelper.dll:directxdatabasehelper.dll (00007FFAC6480000), size: 393216 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\WINDOWS\System32\DriverStore\FileRepository\nvtf.inf_amd64_f7df59a98b1aeb40\nvldumdx.dll:nvldumdx.dll (00007FFAC2AD0000), size: 794624 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.15.7283
+C:\WINDOWS\SYSTEM32\cryptnet.dll:cryptnet.dll (00007FFAC34F0000), size: 241664 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7309
+C:\WINDOWS\SYSTEM32\cryptbase.dll:cryptbase.dll (00007FFACD920000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7623
+C:\WINDOWS\SYSTEM32\wldp.dll:wldp.dll (00007FFACD9E0000), size: 425984 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\WINDOWS\SYSTEM32\drvstore.dll:drvstore.dll (00007FFAC2FA0000), size: 1540096 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\WINDOWS\System32\imagehlp.dll:imagehlp.dll (00007FFAD0140000), size: 131072 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.4202
+C:\WINDOWS\SYSTEM32\CRYPTSP.dll:CRYPTSP.dll (00007FFACD900000), size: 110592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7705
+C:\WINDOWS\system32\rsaenh.dll:rsaenh.dll (00007FFACD010000), size: 233472 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7705
+C:\WINDOWS\System32\DriverStore\FileRepository\nvtf.inf_amd64_f7df59a98b1aeb40\nvgpucomp64.dll:nvgpucomp64.dll (00007FFABEAF0000), size: 58302464 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.15.7283
+C:\WINDOWS\System32\DriverStore\FileRepository\nvtf.inf_amd64_f7df59a98b1aeb40\Display.NvContainer\NvMessageBus.dll:NvMessageBus.dll (00007FFAB4120000), size: 3551232 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.15.3538.9611
+C:\WINDOWS\System32\DriverStore\FileRepository\nvtf.inf_amd64_f7df59a98b1aeb40\NvMemMapStoragex.dll:NvMemMapStoragex.dll (00007FFABE510000), size: 880640 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\System32\DriverStore\FileRepository\nvtf.inf_amd64_f7df59a98b1aeb40\nvwgf2umx.dll:nvwgf2umx.dll (00007FFAB7B80000), size: 87109632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.15.7283
+C:\WINDOWS\system32\nvspcap64.dll:nvspcap64.dll (00007FFA90000000), size: 3170304 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 11.0.3.232
+C:\WINDOWS\SYSTEM32\ntmarta.dll:ntmarta.dll (00007FFACD1D0000), size: 221184 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\WINDOWS\System32\DriverStore\FileRepository\nvtf.inf_amd64_f7df59a98b1aeb40\nvppex.dll:nvppex.dll (00007FFA8B230000), size: 1785856 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.15.7283
+D:\GameDev\2022.3.62f2\Editor\cudart64_90.dll:cudart64_90.dll (00007FFAA82C0000), size: 397312 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.14.11.9000
+C:\WINDOWS\SYSTEM32\opencl.dll:opencl.dll (00007FFA62420000), size: 483328 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.0.6.0
+D:\GameDev\2022.3.62f2\Editor\radeonrays.dll:radeonrays.dll (00007FFA61880000), size: 557056 (result: 0), SymType: '-deferred-', PDB: ''
+D:\GameDev\2022.3.62f2\Editor\Data\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll:mono-2.0-bdwgc.dll (00007FFA54FC0000), size: 10825728 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\SYSTEM32\dbghelp.dll:dbghelp.dll (00007FFACC2C0000), size: 2367488 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.5074
+0x00007FFACE8173FA (KERNELBASE) RaiseException
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FF66276D350)
+0x00007FF66276D350 (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FF66276DD3C)
+0x00007FF66276DD3C (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FF663400B4F)
+0x00007FF663400B4F (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FF6634002AA)
+0x00007FF6634002AA (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FF662D13F6A)
+0x00007FF662D13F6A (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FF662D16024)
+0x00007FF662D16024 (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FF662D16187)
+0x00007FF662D16187 (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FF661A46B45)
+0x00007FF661A46B45 (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FF66276B638)
+0x00007FF66276B638 (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FF661A65427)
+0x00007FF661A65427 (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FF661A66C57)
+0x00007FF661A66C57 (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FF661A6D456)
+0x00007FF661A6D456 (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FF66347AD66)
+0x00007FF66347AD66 (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FF66277A3B5)
+0x00007FF66277A3B5 (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FF66347D119)
+0x00007FF66347D119 (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FF6630EC289)
+0x00007FF6630EC289 (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FF663128702)
+0x00007FF663128702 (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FF6631146AE)
+0x00007FF6631146AE (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FF6631162DE)
+0x00007FF6631162DE (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FF663126AAC)
+0x00007FF663126AAC (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FF6630F9EEF)
+0x00007FF6630F9EEF (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FF6630C56D7)
+0x00007FF6630C56D7 (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FF6630C575B)
+0x00007FF6630C575B (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FF6628DDD1E)
+0x00007FF6628DDD1E (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FF662D58F05)
+0x00007FF662D58F05 (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FF66411B2DE)
+0x00007FF66411B2DE (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FFAD009E8D7)
+0x00007FFAD009E8D7 (KERNEL32) (function-name not available)
+0x00007FFAD1ACC48C (ntdll) RtlUserThreadStart
+
+========== END OF STACKTRACE ===========
+
+A crash has been intercepted by the crash handler. For call stack and other details, see the latest crash report generated in:
+ * C:/Users/amiuke/AppData/Local/Temp/Unity/Editor/Crashes
